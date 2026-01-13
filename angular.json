@@ -31,6 +31,12 @@
             ],
             "scripts": []
           },
+          "deploy": {
+            "builder": "angular-cli-ghpages:deploy",
+            "options": {
+              "baseHref": "/organo-angular/"
+            }
+          },
           "configurations": {
             "production": {
               "budgets": [
